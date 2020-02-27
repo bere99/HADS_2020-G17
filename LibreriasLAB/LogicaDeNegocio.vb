@@ -7,6 +7,7 @@
 
     Public Sub Conectar()
         da.Conectar()
+
     End Sub
 
     Public Function Registrar(ByVal email As String, ByVal nombre As String, ByVal apellidos As String, ByVal rol As String, ByVal pass As String) As String
